@@ -1,0 +1,13 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# Secretos locales de Streamlit
+.streamlit/secrets.toml
+# Nunca subir estudios reales de pacientes (ni RSNA): solo los ejemplos sintéticos
+*.dcm
+datos/
+!ejemplos/

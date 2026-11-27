@@ -1,0 +1,11 @@
+# Dependencias para Streamlit Community Cloud (Linux, solo CPU).
+# El índice de PyTorch CPU evita descargar las librerías CUDA (varios GB) que no se usan en la nube.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+streamlit>=1.40
+pydicom>=2.4
+opencv-python-headless==4.10.0.84
+numpy
+pandas>=2.0
+matplotlib>=3.8

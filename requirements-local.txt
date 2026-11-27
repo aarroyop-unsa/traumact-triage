@@ -1,0 +1,10 @@
+# Instalación local (Windows, macOS o Linux). En Windows/Linux sin GPU puede usar requirements.txt.
+torch>=2.2
+torchvision>=0.17
+streamlit>=1.40
+pydicom>=2.4
+opencv-python-headless>=4.8
+numpy
+pandas>=2.0
+matplotlib>=3.8
+pytest>=8.0
