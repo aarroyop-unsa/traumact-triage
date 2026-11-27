@@ -33,7 +33,7 @@ THESIS_AUC = {"kidney_high": 0.9564, "liver_high": 0.9536, "bowel_healthy": 0.92
 st.set_page_config(page_title="TraumaCT-Triage", page_icon="🩻", layout="wide")
 st.markdown("""
 <style>
-.block-container {padding-top: 1.2rem; padding-bottom: 2rem;}
+.block-container {padding-top: 3.5rem; padding-bottom: 2rem;}
 .tct-header {background:#1f4e79; color:#fff; padding:.7rem 1rem; border-radius:6px; margin-bottom:.8rem;}
 .tct-header b {font-size:1.15rem;} .tct-header span {opacity:.85; font-size:.85rem;}
 .tct-card {border:1px solid #c9ced6; border-radius:6px; padding:.45rem .6rem; margin-bottom:.35rem;}
